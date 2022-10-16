@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: chocolate;
+    height: 200vh;
+}
+.Menu{
+    padding: 30px;
+    background-color: chocolate;
+    width: 95.94%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.Menu ::after{
+    display: block;
+    clear: both;
+}
+header ul{
+    float: right;
+    margin: 3px;
+}
+
+header ul li{
+    display: inline-block;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+header ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.Background {
+    height: 65vh;
+    background-image: url('tarikecak.jpeg');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Background ::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+.section {
+    padding: 50px;
+}
+.Background h1{
+    color:#fff;
+    font-size: 85px;
+    position: absolute;
+    top: 43%;
+    left: 35%;
+}
+.Background h2 {
+    color: #fff;
+    font-size: 75px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+
+.About h1 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    bottom: 5%;
+    left: 46%;
+}
+.About p {
+    color: #000;
+    font-size: 25px;
+    line-height: 25px;
+    word-spacing: 2px;
+    position: absolute;
+    top: 95%;
+    left: 8%;
+    right: 8%;
+}
+.Images {
+    align-items: center;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.Images h1 {
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 130%;
+    right: 44%;
+}
+.Images p {
+    color: #000;
+    font-size: 25px;
+    position: absolute;
+    top: 139%;
+    right: 38%;
+}
