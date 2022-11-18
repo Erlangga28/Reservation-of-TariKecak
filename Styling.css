@@ -112,6 +112,15 @@ header ul li a:hover{
     top: 153%;
     right: 38%;
 }
+.Images1 {
+    align-items: center;
+    line-height: 25px;
+}
+.Images1 img{
+    position: absolute;
+    top: 158%;
+    right: 20%;
+}
 .Created h6 {
     color: #000;
     font-size: 15px;
@@ -154,7 +163,20 @@ tr:hover{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-
-
+.nextbutton h3{
+    background-color: green;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 15px 32px;;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-color: #fff;
+    position: relative;
+    bottom: 2%;
+    left: 90%;
+}
+.nextbutton h3:hover {
+    background-color: darkgreen;
+}
 
 
