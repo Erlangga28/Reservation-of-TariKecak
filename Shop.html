@@ -14,7 +14,25 @@
                 <li><a href ="HomePage.html"> Home </a></li>
                 <li><a href = "Shop.html"> Shop </a></li>
             </ul>
-            </div>
+        </div>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="HomePage.html">Home</a>
+            <a href="Shop.html">Custome</a>
+            <a href="Ticket.html">Tickets</a>
+            <a href="#">About</a>
+        </div>
+      
+        <button class="openbtn" onclick="openNav()">☰</button>
+        <script>
+            function openNav() {
+                document.getElementById("mySidepanel").style.width = "300px";
+            }
+      
+            function closeNav() {
+                document.getElementById("mySidepanel").style.width = "0";
+            }
+        </script>
     </header>
     <div class="Order">
         <h2> "How to Order" </h2>
@@ -28,26 +46,67 @@
             <li> Pay it </li>
         </ol>
     </div>
-    <table>
-        <tr>
-            <th>Nama Kostum</th>
-            <th> Harga </th>
-            
-        </tr>
-        <tr>
-            <td> Kemben </td>
-            <td> Rp. 75.000 </td>
-        </tr>
-        <tr>
-            <td> Udeng (pengikat Kepala) </td>
-            <td> Rp. 50.000 </td>
-            <td> <img src="udeng1.jpeg" width="100"></td>
-        </tr>
-        <tr>
-            <td> Selendang </td>
-            <td> Rp. 80.000 </td>
-        </tr>
-    </table>
+    <h2 style="text-align:center">Part Custome of Tari Kecak </h2>
+<div class="columns">
+  <ul class="price">
+    <img src="udeng1.jpeg"></img>
+    <li class="grey"> Udeng termurah se-Bali </li>
+    <li>Rp. 50.000 </li>
+    <li class="grey"><a href="#" class="button"> Beli </a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <img src="udeng2.jpeg"></img>
+    <li class="grey"> Udeng Warna Putih</li>
+    <li>Rp. 47.500 </li>
+    <li class="grey"><a href="#" class="button"> Beli </a></li>
+  </ul>
+</div>
+
+<div class="columns">
+    <ul class="price">
+      <img src="Selendang2.jpg"></img>
+      <li class="grey"> Selendang Warna Putih</li>
+      <li>Rp. 47.500 </li>
+      <li class="grey"><a href="#" class="button"> Beli </a></li>
+    </ul>
+</div>
+
+<div class="columns">
+    <ul class="price">
+      <img src="selendang1.jpg"></img>
+      <li class="grey"> Selendang Warna Putih</li>
+      <li>Rp. 47.500 </li>
+      <li class="grey"><a href="#" class="button"> Beli </a></li>
+    </ul>
+</div>
+
+<div class="columns">
+    <ul class="price">
+      <img src="selendang3.jpg"></img>
+      <li class="grey"> Selendang Warna Putih</li>
+      <li>Rp. 47.500 </li>
+      <li class="grey"><a href="#" class="button"> Beli </a></li>
+    </ul>
+</div>
+<div class="columns">
+    <ul class="price">
+      <img src="Kemben1.jpg"></img>
+      <li class="grey"> Selendang Warna Putih</li>
+      <li>Rp. 47.500 </li>
+      <li class="grey"><a href="#" class="button"> Beli </a></li>
+    </ul>
+</div>
+<div class="columns">
+    <ul class="price">
+      <img src="Kemben2.jpg"></img>
+      <li class="grey"> Selendang Warna Putih</li>
+      <li>Rp. 47.500 </li>
+      <li class="grey"><a href="#" class="button"> Beli </a></li>
+    </ul>
+</div>
     <div class="nextbutton"> 
         <h3> Next </h3>
     </div>
