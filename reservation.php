@@ -34,7 +34,7 @@ if(isset($_POST['buyticket'])) {
 
     if ($conn->query($sql) === TRUE) {
         echo "<script type='text/javascript'>alert('Registration Successful')</script>";
-        header('location:Homepage.html');
+        header('location:Homepage.php');
     } else {
         //echo "Error: " . $sql . "<br>" . $conn->error;
         echo "<script type='text/javascript'>alert('User Exists')</script>";

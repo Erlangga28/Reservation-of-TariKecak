@@ -10,15 +10,15 @@
                 <header>
                     <div class="Menu">
                         <ul>
-                            <li><a href ="HomePage.html"> Home </a></li>
-                            <li><a href = "Shop.html"> Shop </a></li>
+                            <li><a href ="HomePage.php"> Home </a></li>
+                            <li><a href = "Shop.php"> Shop </a></li>
                         </ul>
                     </div>
                     <div id="mySidepanel" class="sidepanel">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                        <a href="HomePage.html"> Home </a>
-                        <a href="Shop.html">Custome</a>
-                        <a href="Ticket.html"> Tickets </a>
+                        <a href="HomePage.php"> Home </a>
+                        <a href="Shop.php">Custome</a>
+                        <a href="Ticket.php"> Tickets </a>
                         <a href="#">About</a>
                     </div>
                   
