@@ -51,7 +51,7 @@
                         <div class="shape"></div>
                     </div>
                     <form>
-                        <h3>Reservation Ticket</h3>
+                        <h3>Reservation Form</h3>
                 
                         <label for="username">Your Name </label>
                         <input type="text" placeholder="Fullname" id="username">
@@ -63,7 +63,7 @@
                         <input type="number" placeholder="+62" id="password">
       
                         <label for="password">Date of Reservation</label>
-                        <input type="datetime-local" placeholder="e-mail@gmail.com" id="password">
+                        <input type="date" placeholder="e-mail@gmail.com" id="password">
       
                         <label for="password">Number of Ticket</label>
                         <input type="number" placeholder="Pcs" id="password">
@@ -78,6 +78,10 @@
                                 <tr>
                                     <td>Ticket Price :</td>
                                     <td>Rp100.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Staging Time :</td>
+                                    <td>18:00 - 19:00 WIB</td>
                                 </tr>
                             </table>
                         </body>
