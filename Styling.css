@@ -71,7 +71,7 @@ body{
   .openbtn:hover {
     background-color:#444;
   }
-.Menu{
+/* .Menu{
     padding: 30px;
     background-color: chocolate;
     width: 100%;
@@ -110,7 +110,7 @@ header ul li a:hover{
   top: -20px;
   width: 180px;
   height: 95px;
-}
+} */
 .mySlides {
     display: none
 }

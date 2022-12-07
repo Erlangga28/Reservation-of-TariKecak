@@ -8,12 +8,41 @@
                     <link rel = "stylesheet" type ="text/css" href="Styling.css">
                 </head>
                 <header>
-                    <div class="Menu">
-                        <ul>
-                            <li><a href ="HomePage.php"> Home </a></li>
-                            <li><a href = "Shop.php"> Shop </a></li>
+                    <div class="flex justify-center bg-orange-700">
+            <nav class="self-center w-full max-w-7xl  ">
+                <div class="flex flex-col lg:flex-row justify-around items-center text-white">
+                    <h1 class="uppercase pl-5 py-4 text-lg font-sans font-bold">Kecak</h1>
+                    <ul class="hidden lg:flex items-center text-[18px] font-semibold pl-32">
+                        <li class="hover:underline  underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
+                            <a href="HomePage.php">Home</a>
+                        </li>
+                        <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
+                            <a href="Ticket.php">Ticket</a>
+                        </li>
+                        <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
+                            <a href="Shop.php">Store</a></li>
                         </ul>
-                    </div>
+                <div class="text-white text-center text-base pr-5  inline-flex">
+                    <a href="#" class="w-8 h-8 inline-block rounded-full pt-[6px] hover:text-blue-500">
+                        <i class="fa fa-twitter"></i>
+                    </a> 
+                    <a href="#" class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
+                        <i class="fa fa-instagram"></i>
+                    </a> 
+                    <a href="#"class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
+                        <i class="fa fa-facebook"></i>
+                    </a> 
+                    <a href="#" class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
+                        <i class="fa fa-google"></i>
+                    </a> 
+                    
+                </div>
+                </div>
+            </nav>
+    </div>
                     <div id="mySidepanel" class="sidepanel">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                         <a href="HomePage.php"> Home </a>
