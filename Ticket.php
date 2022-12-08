@@ -83,19 +83,19 @@
                         <h3>Reservation Form</h3>
                 
                         <label for="username">Your Name </label>
-                        <input type="text" placeholder="Fullname" id="username">
+                        <input type="text" placeholder="Fullname" id="name">
 
-                        <label for="password">Your E-mail</label>
-                        <input type="email" placeholder="e-mail@gmail.com" id="password">
+                        <label for="email">Your E-mail</label>
+                        <input type="email" placeholder="e-mail@gmail.com" id="email">
       
-                        <label for="password">Phone Number</label>
-                        <input type="number" placeholder="+62" id="password">
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="number" placeholder="+62" id="pn">
       
-                        <label for="password">Date of Reservation</label>
-                        <input type="date" placeholder="e-mail@gmail.com" id="password">
+                        <label for="date">Date of Reservation</label>
+                        <input type="date" placeholder="e-mail@gmail.com" id="date">
       
-                        <label for="password">Number of Ticket</label>
-                        <input type="number" placeholder="Pcs" id="password">
+                        <label for="numberofticket">Number of Ticket</label>
+                        <input type="number" placeholder="Pcs" id="numberofticket">
 
                         <div class="social">
                           <div class="login"><i class="fab fa-login"></i>  Book Ticket</div>
