@@ -90,6 +90,23 @@
     </form>
 </section>
 
+<div class="flex"> 
+  <input type="checkbox" class="" name="" id=""> 
+    <p class="text-justify ml-4">Focus critical developer resources on your core business</p> 
+  </div> 
+  <div class="flex"> 
+    <input type="checkbox" class="" name="" id=""> 
+      <p class="text-justify ml-4">Launch new products faster with less payments code.</p> 
+    </div> 
+  <div class="flex"> 
+    <input type="checkbox" class="" name="" id=""> 
+    <p class="text-justify ml-4">Improve conversion from international customers.</p> 
+  </div> 
+</div> 
+</div> 
+</div> 
+</div>
+
 <footer class="text-gray-600 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
