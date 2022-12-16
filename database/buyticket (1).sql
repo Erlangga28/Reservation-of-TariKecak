@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 08, 2022 at 02:32 AM
+-- Generation Time: Dec 16, 2022 at 11:54 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -18,22 +18,22 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `reservationdb`
+-- Database: `fpmppl`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ticket`
+-- Table structure for table `buyticket`
 --
 
-CREATE TABLE `ticket` (
+CREATE TABLE `buyticket` (
   `id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `phonenumber` int(12) NOT NULL,
-  `date` date NOT NULL,
-  `ticket` int(255) NOT NULL
+  `custname` varchar(255) NOT NULL,
+  `datebuy` date NOT NULL,
+  `custnotes` varchar(255) NOT NULL,
+  `custemail` varchar(255) NOT NULL,
+  `ticketselect` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -41,9 +41,9 @@ CREATE TABLE `ticket` (
 --
 
 --
--- Indexes for table `ticket`
+-- Indexes for table `buyticket`
 --
-ALTER TABLE `ticket`
+ALTER TABLE `buyticket`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -51,9 +51,9 @@ ALTER TABLE `ticket`
 --
 
 --
--- AUTO_INCREMENT for table `ticket`
+-- AUTO_INCREMENT for table `buyticket`
 --
-ALTER TABLE `ticket`
+ALTER TABLE `buyticket`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
