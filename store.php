@@ -13,7 +13,7 @@
                     <h1 class="uppercase pl-5 py-4 text-lg font-sans font-bold">Kecak</h1>
                     <ul class="hidden lg:flex items-center text-[18px] font-semibold pl-32">
                         <li class="hover:underline  underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
-                            <a href="test.php">Home</a>
+                            <a href="home.php">Home</a>
                         </li>
                         <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
                             <a href="buyticket.php">Ticket</a>

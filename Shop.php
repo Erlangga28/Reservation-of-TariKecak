@@ -14,9 +14,9 @@
         </div>
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <a href="HomePage.php"> Home </a>
+            <a href="home.php"> Home </a>
             <a href="Shop.php">Custome</a>
-            <a href="Ticket.php"> Tickets </a>
+            <a href="buyticket.php"> Tickets </a>
             <a href="#">About</a>
         </div>
       
