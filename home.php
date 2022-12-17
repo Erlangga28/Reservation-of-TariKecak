@@ -20,7 +20,7 @@
                             <a href="buyticket.php">Ticket</a>
                         </li>
                         <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
-                            <a href="#">About</a>
+                            <a href="about.php">About</a>
                         </li>
                         <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
                             <a href="store.php">Store</a></li>
@@ -43,13 +43,13 @@
     </div>
     <div class="flex space-x-2 md:space-x-6 md:m-4">
                                             
-    <div class="md:w-45 w-70 h-60 md:h-96  overflow-hidden rounded-xl">
+    <div class="md:w-50 w-70 h-60 md:h-96  overflow-hidden rounded-xl">
         <img src="img/bali3.jpg" class="h-full w-full" alt="">
     </div>
-    <div class="md:w-60 w-35 h-60 md:h-96  overflow-hidden rounded-xl">
+    <div class="md:w-80 w-35 h-60 md:h-96  overflow-hidden rounded-xl">
         <img src="img/Bali.jpg" class="h-full w-full" alt="">                                        
     </div>
-    <div class="md:w-50  w-45 h-60 md:h-96  overflow-hidden rounded-xl">
+    <div class="md:w-80  w-55 h-60 md:h-96  overflow-hidden rounded-xl">
         <img src="img/Bali2.jpg" class="h-full w-full" alt="">                                        
     </div>
     </div>
@@ -99,29 +99,40 @@
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex w-full mb-20 flex-wrap">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Gallery of Bali</h1>
+      <p class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4 text-center md:text-center ">Gallery of Bali</p>
     </div>
     <div class="flex flex-wrap md:-m-2 -m-1">
       <div class="flex flex-wrap w-1/2">
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/uluwatu.jpg">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/vacation-bali.jpg">
         </div>
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/nusadua.jpg">
         </div>
         <div class="md:p-2 p-1 w-full">
-          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/600x360">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/bali-pray.jpg">
+        </div>
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="img/kecak-kecak.jpg">
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="md:p-2 p-1 w-full">
-          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="img/bedugul.jpg">
         </div>
-        <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302">
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="img/penari.jpg">
         </div>
+        <div class="flex flex-wrap md:-m-2 -m-1">
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/Aesthetic_bali.jpg">
+        </div>
+        
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/bali-bali.jpg">
+        </div>
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="img/tarikecak1.jpg">
         </div>
       </div>
     </div>
@@ -131,7 +142,7 @@
 <footer class="text-gray-600 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src="Tarikecak-logo.png" class="w-25 h-20 text-white p-2"></img>
+        <img src="img/Tarikecak-logo.png" class="w-25 h-20 text-white p-2"></img>
       <!-- <svg src="Tarikecak-logo.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg> -->

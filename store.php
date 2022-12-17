@@ -48,62 +48,62 @@
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/udeng1.jpeg">
         </a>
         <div class="mt-4">
           <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-          <p class="mt-1">$16.00</p>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Udeng Hitam</h2>
+          <p class="mt-1">Rp. 15.000</p>
         </div>
       </div>
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/udeng2.jpeg">
         </a>
         <div class="mt-4">
           <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
-          <p class="mt-1">$21.15</p>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Udeng Putih</h2>
+          <p class="mt-1">Rp. 17.000</p>
         </div>
       </div>
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/Selendang2.jpg">
         </a>
         <div class="mt-4">
           <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
-          <p class="mt-1">$12.00</p>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Selendang</h2>
+          <p class="mt-1">Rp. 20.000</p>
         </div>
       </div>
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/selendang3.jpg">
         </a>
         <div class="mt-4">
           <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
-          <p class="mt-1">$18.40</p>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Selendang Motif</h2>
+          <p class="mt-1">Rp. 27.000</p>
         </div>
       </div>
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/Kemben1.jpg">
         </a>
         <div class="mt-4">
           <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-          <p class="mt-1">$16.00</p>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Kemben Putih motif emas</h2>
+          <p class="mt-1">Rp. 25.000</p>
         </div>
       </div>
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src=img/Kemben2.jpg>
         </a>
         <div class="mt-4">
           <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
-          <p class="mt-1">$21.15</p>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Kemben hitam </h2>
+          <p class="mt-1">Rp. 28.000</p>
         </div>
       </div>
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -133,7 +133,7 @@
 <footer class="text-gray-600 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src="Tarikecak-logo.png" class="w-25 h-20 text-white p-2"></img>
+        <img src="img/Tarikecak-logo.png" class="w-25 h-20 text-white p-2"></img>
       <!-- <svg src="Tarikecak-logo.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg> -->

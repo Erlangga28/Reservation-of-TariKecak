@@ -52,7 +52,7 @@
 
 <!-- component -->
 <form action="data/ticket.data.php"method="post">
-  <section class="max-w-4xl p-6 mx-auto bg-indigo-600 rounded-md shadow-md dark:bg-gray-800 mt-20">
+  <section class="max-w-full p-6 mx-auto bg-indigo-600 rounded-md shadow-md dark:bg-gray-800 mt-20">
     <h1 class="text-center text-xl font-bold text-white capitalize dark:text-white">Ticket Kecak Dance Form</h1>
         <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
             <div>
@@ -106,7 +106,7 @@
 </section>
 
 <form action="data/ticket.data.php"method="post">
-  <section class="max-w-4xl p-6 mx-auto bg-indigo-600 rounded-md shadow-md dark:bg-gray-800 mt-20">
+  <section class="max-w-full p-6 mx-auto bg-indigo-600 rounded-md shadow-md dark:bg-gray-800 mt-20">
     <h1 class="text-center text-xl font-bold text-white capitalize dark:text-white">Find Reservation</h1>
         <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
 

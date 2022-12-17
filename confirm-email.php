@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title></title>
+    <title>E-mail Confirmed</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -101,14 +101,36 @@
     </style>
 </head>
 
-<body style="background-color: #f4f4f4; margin: 0 !important; padding: 0 !important;">
-    <!-- HIDDEN PREHEADER TEXT -->
-    <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: 'Lato', Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;"> We're thrilled to have you here! Get ready to dive into your new account.
+<div class="flex justify-center bg-orange-700">
+            <nav class="self-center w-full max-w-7xl  ">
+                <div class="flex flex-col lg:flex-row justify-around items-center text-white">
+                    <h1 class="uppercase pl-5 py-4 text-lg font-sans font-bold">Kecak</h1>
+                    <ul class="hidden lg:flex items-center text-[18px] font-semibold pl-32">
+                        <li class="hover:underline  underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
+                            <a href="home.php">Home</a>
+                        </li>
+                        <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
+                            <a href="buyticket.php">Ticket</a>
+                        </li>
+                        <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
+                            <a href="store.php">Store</a></li>
+                        </ul>
+                <div class="text-white text-center text-base pr-5  inline-flex">
+                    <a href="https://id.wikipedia.org/wiki/Kecak" class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
+                        <i class="fa fa-google"></i>
+                    </a> 
+                    
+                </div>
+                </div>
+            </nav>
     </div>
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
         <!-- LOGO -->
         <tr>
-            <td bgcolor="#FFA73B" align="center">
+            <td bgcolor="#c2410c" align="center">
                 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
                     <tr>
                         <td align="center" valign="top" style="padding: 40px 10px 40px 10px;"> </td>
@@ -117,11 +139,11 @@
             </td>
         </tr>
         <tr>
-            <td bgcolor="#FFA73B" align="center" style="padding: 0px 10px 0px 10px;">
+            <td bgcolor="#c2410c" align="center" style="padding: 0px 10px 0px 10px;">
                 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
                     <tr>
                         <td bgcolor="#ffffff" align="center" valign="top" style="padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 400; letter-spacing: 4px; line-height: 48px;">
-                            <h1 style="font-size: 48px; font-weight: 400; margin: 2;">Welcome!</h1> <img src=" https://img.icons8.com/clouds/100/000000/handshake.png" width="125" height="120" style="display: block; border: 0px;" />
+                            <h1 style="font-size: 48px; font-weight: 400; margin: 2;">Thank you for reservation!!</h1> <img src=" https://img.icons8.com/clouds/100/000000/handshake.png" width="125" height="120" style="display: block; border: 0px;" />
                         </td>
                     </tr>
                 </table>
@@ -132,7 +154,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
                     <tr>
                         <td bgcolor="#ffffff" align="left" style="padding: 20px 30px 40px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;">
-                            <p style="margin: 0;">We're excited to have you get started. First, you need to confirm your account. Just press the button below.</p>
+                            <p style="margin: 0;">We're excited to have you come and watch the dance. Last step, we're sending e-mail to you. please confirm if the message was sent.</p>
                         </td>
                     </tr>
                     <tr>
@@ -142,7 +164,7 @@
                                     <td bgcolor="#ffffff" align="center" style="padding: 20px 30px 60px 30px;">
                                         <table border="0" cellspacing="0" cellpadding="0">
                                             <tr>
-                                                <td align="center" style="border-radius: 3px;" bgcolor="#FFA73B"><a href="#" target="_blank" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px; border: 1px solid #FFA73B; display: inline-block;">Confirm Account</a></td>
+                                                <td align="center" style="border-radius: 3px;" bgcolor="#fb923c"><a href="#" target="_blank" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px; border: 1px solid #FFA73B; display: inline-block;">Confirm</a></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -157,7 +179,7 @@
                     </tr> <!-- COPY -->
                     <tr>
                         <td bgcolor="#ffffff" align="left" style="padding: 20px 30px 20px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;">
-                            <p style="margin: 0;"><a href="#" target="_blank" style="color: #FFA73B;">https://bit.li.utlddssdstueincx</a></p>
+                            <p style="margin: 0;"><a href="http://gmail.com" target="_blank" style="color: #FFA73B;">https://gmail.com</a></p>
                         </td>
                     </tr>
                     <tr>
@@ -167,7 +189,7 @@
                     </tr>
                     <tr>
                         <td bgcolor="#ffffff" align="left" style="padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;">
-                            <p style="margin: 0;">Cheers,<br>BBB Team</p>
+                            <p style="margin: 0;">Cheers,<br>Captain Java Trip Team</p>
                         </td>
                     </tr>
                 </table>
@@ -177,26 +199,22 @@
             <td bgcolor="#f4f4f4" align="center" style="padding: 30px 10px 0px 10px;">
                 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
                     <tr>
-                        <td bgcolor="#FFECD1" align="center" style="padding: 30px 30px 30px 30px; border-radius: 4px 4px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;">
-                            <h2 style="font-size: 20px; font-weight: 400; color: #111111; margin: 0;">Need more help?</h2>
-                            <p style="margin: 0;"><a href="#" target="_blank" style="color: #FFA73B;">We&rsquo;re here to help you out</a></p>
+                        <td bgcolor="#fb923c" align="center" style="padding: 30px 30px 30px 30px; border-radius: 4px 4px 4px 4px; color: #fafaf9; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;">
+                            <h2 style="font-size: 20px; font-weight: 400; color: #171717; margin: 0;">Need more help?</h2>
+                            <p style="margin: 0;"><a href="#" target="_blank" style="color: #fafaf9;">We&rsquo;re here to help you out</a></p>
                         </td>
                     </tr>
                 </table>
             </td>
         </tr>
         <tr>
-            <td bgcolor="#f4f4f4" align="center" style="padding: 0px 10px 0px 10px;">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
-                    <tr>
-                        <td bgcolor="#f4f4f4" align="left" style="padding: 0px 30px 30px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px;"> <br>
-                            <p style="margin: 0;">If these emails get annoying, please feel free to <a href="#" target="_blank" style="color: #111111; font-weight: 700;">unsubscribe</a>.</p>
-                        </td>
-                    </tr>
-                </table>
-            </td>
+           
         </tr>
     </table>
+    <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
