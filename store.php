@@ -42,109 +42,94 @@
                 </div>
             </nav>
     </div>
-    <div class="flex justify-center">
-   <div class="flex flex-col md:flex-row max-w-7xl justify-center items-center m-2">
-       <div
-           class="bg-white m-4 shadow-xl min-h-96 flex flex-col justify-center text-black hover:text-white hover:bg-stone-900 hover:scale-105 ">
-           <div class="m-8 h-96">
-               <div class=" m-2">Free</div>
-               <div class=" m-2 text-3xl">$0</div>
-               <div class=" m-2 mt-8">For Freelancers</div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">1 user</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">10 downloads per day</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">Daily content updates</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="close-circle-outline" class="m-1 text-red-500"></ion-icon>
-                   <div class="">100 downloads per day</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="close-circle-outline" class="m-1 text-red-500"></ion-icon>
-                   <div class="">Daily Backups </div>
-               </div>
-           </div>
-           <div class="flex justify-center">
-               <div
-                   class="bg-stone-900 text-white cursor-pointer m-4 px-8 py-1 rounded-2xl hover:bg-white hover:text-stone-900 font-medium">
-                   Subscribe</div>
-           </div>
-       </div>
-       <div
-           class="bg-white m-4 shadow-xl min-h-96 flex flex-col justify-center text-black hover:text-white hover:bg-stone-900 hover:scale-105 ">
-           <div class="m-8 h-96 ">
-               <div class=" m-2">Gold</div>
-               <div class=" m-2 text-3xl">$9.99</div>
-               <div class=" m-2 mt-8">For Developers</div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">10 user</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">100 downloads per day</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">Daily content updates</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">Daily Backups </div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="close-circle-outline" class="m-1 text-red-500"></ion-icon>
-                   <div class="">Hourly Backups</div>
-               </div>
-           </div>
-           <div class="flex justify-center">
-               <div
-                   class="bg-stone-900 text-white cursor-pointer m-4 px-8 py-1 rounded-2xl hover:bg-white hover:text-stone-900 font-medium">
-                   Subscribe</div>
-           </div>
-       </div>
-       <div
-           class="bg-white m-4 shadow-xl min-h-96 flex flex-col justify-center text-black hover:text-white hover:bg-stone-900 hover:scale-105 ">
-           <div class="m-8 h-96 ">
-               <div class=" m-2">Platinum</div>
-               <div class=" m-2 text-3xl">$14.99</div>
-               <div class=" m-2 mt-8">For Business</div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">1 user</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">1000 downloads per day</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">Hourly Backups</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">Daily content updates</div>
-               </div>
-               <div class="flex">
-                   <ion-icon name="checkmark-circle-outline" class="m-1 text-green-500"></ion-icon>
-                   <div class="">24x7 Service</div>
-               </div>
-           </div>
-           <div class="flex justify-center">
-               <div
-                   class="bg-stone-900 text-white cursor-pointer m-4 px-8 py-1 rounded-2xl hover:bg-white hover:text-stone-900 font-medium">
-                   Subscribe</div>
-           </div>
-       </div>
-   </div>
-</div>
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+          <p class="mt-1">$16.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+          <p class="mt-1">$21.15</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+          <p class="mt-1">$12.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+          <p class="mt-1">$18.40</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+          <p class="mt-1">$16.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+          <p class="mt-1">$21.15</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+          <p class="mt-1">$12.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+          <p class="mt-1">$18.40</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer class="text-gray-600 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">

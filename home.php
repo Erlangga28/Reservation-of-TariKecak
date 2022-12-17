@@ -26,16 +26,7 @@
                             <a href="store.php">Store</a></li>
                         </ul>
                 <div class="text-white text-center text-base pr-5  inline-flex">
-                    <a href="#" class="w-8 h-8 inline-block rounded-full pt-[6px] hover:text-blue-500">
-                        <i class="fa fa-twitter"></i>
-                    </a> 
-                    <a href="#" class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
-                        <i class="fa fa-instagram"></i>
-                    </a> 
-                    <a href="#"class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
-                        <i class="fa fa-facebook"></i>
-                    </a> 
-                    <a href="#" class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
+                    <a href="https://id.wikipedia.org/wiki/Kecak" class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
                         <i class="fa fa-google"></i>
                     </a> 
                     
@@ -43,7 +34,7 @@
                 </div>
             </nav>
     </div>
-    <div class="flex justify-center bg-orange-700 p-8 ">
+    <div class="flex justify-center bg-orange-700 p-8">
     <div class="flex flex-col justify-center">
                                             
     <div class="flex flex-col lg:flex-row max-w-7xl justify-center items-center p-2 space-y-3 w-full">
@@ -52,18 +43,14 @@
     </div>
     <div class="flex space-x-2 md:space-x-6 md:m-4">
                                             
-    <div class="md:w-20 w-10 h-60 md:h-96  overflow-hidden rounded-xl">
-        <img src="https://source.unsplash.com/100x400/?man" class="h-full w-full" alt="">
+    <div class="md:w-45 w-70 h-60 md:h-96  overflow-hidden rounded-xl">
+        <img src="img/bali3.jpg" class="h-full w-full" alt="">
     </div>
-    <div class="md:w-60 w-28 h-60 md:h-96  overflow-hidden rounded-xl">
-        <img src="https://source.unsplash.com/200x400/?girl" class="h-full w-full" alt="">                                        
+    <div class="md:w-60 w-35 h-60 md:h-96  overflow-hidden rounded-xl">
+        <img src="img/Bali.jpg" class="h-full w-full" alt="">                                        
     </div>
-    <div class="md:w-28  w-16 h-60 md:h-96  overflow-hidden rounded-xl">
-        <img src="https://source.unsplash.com/100x400/?boy" class="h-full w-full" alt="">                                        
-    </div>
-    <div class="md:w-20 w-10 h-60 md:h-96  overflow-hidden rounded-xl">
-        <img src="https://source.unsplash.com/100x400/?women" class="h-full w-full" alt="">
-                                            
+    <div class="md:w-50  w-45 h-60 md:h-96  overflow-hidden rounded-xl">
+        <img src="img/Bali2.jpg" class="h-full w-full" alt="">                                        
     </div>
     </div>
                                             
@@ -75,25 +62,30 @@
   <div class="container px-5 py-24 mx-auto flex flex-col">
     <div class="lg:w-4/6 mx-auto">
       <div class="rounded-lg h-64 overflow-hidden">
-        <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500">
+        <img alt="content" class="object-cover object-center h-full w-full" src="img/kecak-dance.jpg">
       </div>
       <div class="flex flex-col sm:flex-row mt-10">
         <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
           <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
+            <img src="img/wayan.jpeg"class="w-32 h-30">
+            <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24"> -->
+            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <!-- <circle cx="12" cy="7" r="4"></circle>
+            </svg> -->
           </div>
           <div class="flex flex-col items-center text-center justify-center">
-            <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
+            <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Wayan Limbak</h2>
             <div class="w-12 h-1 bg-red-500 rounded mt-2 mb-4"></div>
-            <p class="text-base">Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.</p>
+            <p class="text-base">Wayan Limbak is an Indonesian dancer, who worked with Walter Spies to popularize the Indonesian dance, known as the kecak</p>
           </div>
         </div>
         <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-          <p class="leading-relaxed text-lg mb-4">Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.</p>
-          <a class="text-red-500 inline-flex items-center">Learn More
+          <p class="leading-relaxed text-lg mb-4">Kecak is the story of Ramayana. As a drama and dance performance, 
+                                                  there are stories that are told in the Kecak dance. Usually the story is about the kidnapping of Dewi Sinta by Ravana. 
+                                                  Rama tried to free Dewi Sinta in various ways, one of which was asking Lord Hanuman for help.
+                                                  This dance is a mass entertainment performance dance. This dance is performed by several male dancers, 
+                                                  wearing a black and white checkered cloth covering the shape of a chessboard.</p>
+          <a href="https://www.gramedia.com/literasi/sejarah-asal-tari-kecak/" class="text-red-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -107,13 +99,12 @@
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex w-full mb-20 flex-wrap">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
-      <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Gallery of Bali</h1>
     </div>
     <div class="flex flex-wrap md:-m-2 -m-1">
       <div class="flex flex-wrap w-1/2">
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/uluwatu.jpg">
         </div>
         <div class="md:p-2 p-1 w-1/2">
           <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301">
@@ -144,10 +135,10 @@
       <!-- <svg src="Tarikecak-logo.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg> -->
-      <span class="ml-3 text-xl">Kecak 2022</span>
+      <span class="ml-3 text-xl">Kecak</span>
     </a>
     <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Kecak 2022 —
-      <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@knyttneve</a>
+      <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Captain Java Trip</a>
     </p>
     <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a class="text-gray-500">
