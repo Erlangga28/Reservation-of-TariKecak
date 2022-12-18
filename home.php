@@ -29,7 +29,9 @@
                     <a href="https://id.wikipedia.org/wiki/Kecak" class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
                         <i class="fa fa-google"></i>
                     </a> 
-                    
+                    <a href="login.php" class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
+                      <i class="fa fa-user-o" aria-hidden="true"></i>
+                    </a> 
                 </div>
                 </div>
             </nav>
