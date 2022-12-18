@@ -2,10 +2,6 @@
     require_once('connection.php');
 ?>
 
-<?php 
-    if ($_SESSION['RollNo']) {
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -174,7 +170,3 @@
     </body>
 </html>
 
-<?php }
-else {
-    echo "<script type='text/javascript'>alert('Access Denied!!!')</script>";
-} ?>

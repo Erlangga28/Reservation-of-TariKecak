@@ -60,7 +60,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="student.php" class="nav-link px-0 align-middle">
+                            <a href="manage-user.php" class="nav-link px-0 align-middle">
                                 <i class="fs-4 bi-person-workspace"></i> <span class="ms-1 d-none d-sm-inline">Manage Students</span></a>
                         </li>
                         <li>
