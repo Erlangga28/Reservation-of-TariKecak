@@ -37,34 +37,29 @@
   <div class="container px-5 py-24 mx-auto">
     <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
       <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+      <img src="img/hat-sunglasses.jpg"class="w-32 h-30"> 
+      <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24"> -->
           <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-        </svg>
+        
       </div>
       <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Shooting Stars</h2>
-        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
+        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Bring a hat and sunglasses</h2>
+        <p class="leading-relaxed text-base">You can wear glasses and a hat to the show if you have them. This is because some seats will face right into the setting sun, which will be very bright, especially between 3 and 5 in the afternoon. 
+                                            Your face and eyes will be protected from the hot afternoon sun by a hat and sunglasses.</p>
       </div>
     </div>
     <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
       <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Catalyzer</h2>
-        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
+        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Keep monkeys away from your bags and glasses</h2>
+        <p class="leading-relaxed text-base">The area around the temple is also home to a lot of monkeys. Based on what has been seen, the monkeys are usually more active at night, when the audience is leaving.
+                                              Sometimes the monkeys like to be bad and steal small things from people, like glasses, water bottles, cell phones, and other small things. So, pay attention and take care of the things you own. Hold on tight to the stem of your glasses and stay alert, especially at night, if you wear them.
+                                              Even so, there’s no need to worry because there will be a lot of handlers to make sure people get to the exit safely.</p>
       </div>
       <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+      <img src="img/monkey-away.webp"class="w-32 h-30"> 
+        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
           <circle cx="6" cy="6" r="3"></circle>
-          <circle cx="6" cy="18" r="3"></circle>
+          <circle cx="6" cy="18" r="3"></circle> -->
           <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
         </svg>
       </div>
@@ -143,11 +138,9 @@
 
 <section class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
-    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="img/tarikecak-uluwatu.jpg">
     <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Knausgaard typewriter readymade marfa</h1>
-      <p class="mb-8 leading-relaxed">Kickstarter biodiesel roof party wayfarers cold-pressed. Palo santo live-edge tumeric scenester copper mug flexitarian. Prism vice offal plaid everyday carry. Gluten-free chia VHS squid listicle artisan.</p>
-
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Tari Kecak Show in Uluwatu</h1>
       <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
         <div>
           <label class="text-white dark:text-gray-200" for="email">Email Address</label>
