@@ -95,68 +95,53 @@
 
                     <div class="col mt-5">
                     <div class="container-fluid">
-                    <h1 class="text-center mb-3">Student List</h1>
-                        <form class="form-horizontal row-fluid" action="student.php" method="post">
+                    <h1 class="text-center mb-3">Ticket List</h1>
+                        <form class="form-horizontal row-fluid" action="data/ticket.data.php" method="post">
                                         <div class="control-group">
                                             <label class="control-label" for="Search"><b>Search:</b></label>
                                             <div class="input-group">
-                                                <input type="text" id="title" name="title" placeholder="Enter Name/Roll No of Student" class="form-control rounded-0" aria-label="Search" >
+                                                <input type="text" id="title" name="title" placeholder="email" class="form-control rounded-0" aria-label="Search" >
                                                 <button type="submit" name="submit"class="btn btn-outline-dark rounded-0">Search</button>
                                             </div>
+                                            <th>name</th>
+                                            <th>email</th>
+                                            <th>date</th>
+                                            <th>notes</th>
+                                            <th>ticket</th>
+
                                         </div>
-                                    </form>
-                                    <br>
-                                    <?php
-                                    if(isset($_POST['submit']))
-                                        {$s=$_POST['title'];
-                                            $sql="select * from pwebfp.user where (RollNo='$s' or Name like '%$s%') and RollNo<>'ADMIN'";
-                                        }
-                                    else
-                                        $sql="select * from pwebfp.user where RollNo<>'ADMIN'";
+                                        <?php
+                                                $orders=getOrders();
 
-                                    $result=$conn->query($sql);
-                                    $rowcount=mysqli_num_rows($result);
+                                                if(mysqli_num_rows($orders)> 0){
+                                                    
+                                                    foreach($orders as $ticket){
+                                                        ?>
+                                                            <tr>
+                                                                <td> <?$ticket['custname']; ?> </td?>
+                                                                <td> <?$ticket['custemail']; ?> </td?>
+                                                                <td> <?$ticket['datebuy']; ?> </td?>
+                                                                <td> <?$ticket['custnotes']; ?> </td?>
+                                                                <td> <?$ticket['ticketselect']; ?> </td?>
+                                                                <td>
+                                                                    <a href = "#" class= "btn-btn-primary"> View order details</a>
 
-                                    if(!($rowcount))
-                                        echo "<br><center><h2><b><i>No Results</i></b></h2></center>";
-                                    else
-                                    {
+                                                                <td>
+                                                            </tr>
+                                                        <?php
+                                                    }
+                                                }else{
+                                                    ?>
+                                                    <tr>
+                                                        <td> colspan= "5"> No orders yet </td?>
+                                                        
+                                                    </tr>
+                                                <?php
+                                                }
+                                        ?>
+
                                     
-                                    ?>
-                                    <table class="table mt-5 table-bordered" id = "tables">
-                                    <thead class="thead-dark">
-                                    <tr>
-                                      <th>Name</th>
-                                      <th>Roll No.</th>
-                                      <th>Email </th>                                      
-                                      <th></th>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <?php
-                            
-                            //$result=$conn->query($sql);
-                            while($row=$result->fetch_assoc())
-                            {
-
-                                $email=$row['Email'];
-                                $name=$row['Name'];
-                                $rollno=$row['RollNo'];
-                            ?>
-                                    <tr>
-                                      <td><?php echo $name ?></td>
-                                      <td class="font-weight-bold text-primary" ><?php echo $rollno ?></td>
-                                      <td><?php echo $email ?></td>                                      
-                                        <td>
-                                        <center>
-                                            <a href="studentdetails.php?id=<?php echo $rollno; ?>" class="btn btn-success">Details</a>
-                                            <!--a href="remove_student.php?id=<?php echo $rollno; ?>" class="btn btn-danger">Remove</a-->
-                                      </center>
-                                        </td>
-                                    </tr>
-                            <?php }} ?>
-                                  </tbody>
-                                </table>
+                                   
                             </div>
                     <!--/.span9-->
                 </div>

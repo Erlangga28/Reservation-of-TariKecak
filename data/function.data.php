@@ -50,3 +50,12 @@ function emptyInputLogin($id, $password){
     }
     return $result;
 }
+
+function getOrders(){
+
+    global $conn;
+    $email = $_SESSION['email'];
+
+    $query = "SELECT * FROM ticket WHERE custemail = '$email' ";
+    return $query_run = mysqli_query($conn, $query);
+}
