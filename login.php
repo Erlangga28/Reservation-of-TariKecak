@@ -52,7 +52,7 @@ require('connection.php');
                 echo "Login Successful";
                  $_SESSION['id']=$u;
         
-                if($y=='Admin')
+                if($y=='admin')
                 header('location:admin/index.php');       
             }
             else 

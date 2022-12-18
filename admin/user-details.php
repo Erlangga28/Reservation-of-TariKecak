@@ -16,7 +16,7 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <title>Home</title>
+    <title>Book Details</title>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
                     
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 mt-5 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item ">
-                            <a href="#" class="nav-link align-middle px-0">
+                            <a href="index.php" class="nav-link align-middle px-0">
                                 <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
                             </a>
                         </li>
@@ -85,7 +85,7 @@
                         </li>
                         <li>
                             <a href="current.php" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline"> Currently Issued Books </span> </a>
+                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Currently Issued Books </span> </a>
                         </li>
                         <li>
                             <a href="logout.php">
@@ -95,50 +95,40 @@
                     </ul>                   
                 </div>
             </div>
-            <div class="col py-3">
-                <div class="container-fluid">
-                    <center class="mt-5">
-                        <div class=" card border-radius-lg border-dark" style="width: 30rem;">
-                            <img src="images/profile2.png" class="card-img-top px-5" alt="Profile Photo">
-                            <hr class="bg-danger border-2 border-top border-dark">
-                            <div class="card-body">
+            <!-- CONTENT -->
+            <div class="col mt-5">
+                <div class=container-fluid></div>
+                    <div class="mx-5 bg-light">
+                        <h1 class="text-center pt-4">Student Details</h1>
 
-                                <?php
-                                    $rollno = $_SESSION['RollNo'];
-                                    $sql="select * from pwebfp.user where RollNo='$rollno'";
-                                    $result=$conn->query($sql);
-                                    $row=$result->fetch_assoc();
+                        <?php
+                            $rno=$_GET['id'];
+                            $sql="select * from pwebfp.user where RollNo='$rno'";
+                            $result=$conn->query($sql);
+                            $row=$result->fetch_assoc();    
+                            
+                                $name=$row['Name'];
+                                $email=$row['Email'];
+                                $mobno=$row['MobNo'];
 
-                                    $name=$row['Name'];
-                                    // $category=$row['Category'];
-                                    $email=$row['Email'];
-                                    $mobno=$row['MobNo'];
-                                ?>
+                                echo "<b><u>Name:</u></b> ".$name."<br><br>";
+                                echo "<b><u>Roll No:</u></b> ".$rno."<br><br>";
+                                echo "<b><u>Email Id:</u></b> ".$email."<br><br>";
+                                echo "<b><u>Mobile No:</u></b> ".$mobno."<br><br>"; 
+                            ?>
 
-                                <h1 class="text-center"><?php echo $name ?></h1>
-                                <br>
-                                <h4 class="text-start">Email: <p><?php echo $email ?></p></h4>
-                                <br>
-                                <h4 class="text-start">Mobile Number: <p><?php echo $mobno ?></p></h4>
-                            </div>
-                        </div>
-                        <a href="edit_admin_details.php">
-                            <button type="button" class="btn btn-primary mt-5 ">Edit Profile</button>
-                        </a>
-                    </center>
-                </div>
+                        <a href="student.php" class="btn btn-primary">Go Back</a>  
+                    </div>
+               </div>                         
             </div>
         </div>
     </div>
-    
-    
-    
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
 </body>
-
 </html>
 
 <?php }

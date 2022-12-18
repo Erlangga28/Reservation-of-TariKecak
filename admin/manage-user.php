@@ -16,7 +16,7 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <title>Home</title>
+    <title>Student List</title>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
                     
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 mt-5 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item ">
-                            <a href="#" class="nav-link align-middle px-0">
+                            <a href="index.php" class="nav-link align-middle px-0">
                                 <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
                             </a>
                         </li>
@@ -85,7 +85,7 @@
                         </li>
                         <li>
                             <a href="current.php" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline"> Currently Issued Books </span> </a>
+                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Currently Issued Books </span> </a>
                         </li>
                         <li>
                             <a href="logout.php">
@@ -95,50 +95,83 @@
                     </ul>                   
                 </div>
             </div>
-            <div class="col py-3">
-                <div class="container-fluid">
-                    <center class="mt-5">
-                        <div class=" card border-radius-lg border-dark" style="width: 30rem;">
-                            <img src="images/profile2.png" class="card-img-top px-5" alt="Profile Photo">
-                            <hr class="bg-danger border-2 border-top border-dark">
-                            <div class="card-body">
 
-                                <?php
-                                    $rollno = $_SESSION['RollNo'];
-                                    $sql="select * from pwebfp.user where RollNo='$rollno'";
+
+                    <div class="col mt-5">
+                    <div class="container-fluid">
+                    <h1 class="text-center mb-3">Student List</h1>
+                        <form class="form-horizontal row-fluid" action="student.php" method="post">
+                                        <div class="control-group">
+                                            <label class="control-label" for="Search"><b>Search:</b></label>
+                                            <div class="input-group">
+                                                <input type="text" id="title" name="title" placeholder="Enter Name/Roll No of Student" class="form-control rounded-0" aria-label="Search" >
+                                                <button type="submit" name="submit"class="btn btn-outline-dark rounded-0">Search</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <br>
+                                    <?php
+                                    if(isset($_POST['submit']))
+                                        {$s=$_POST['title'];
+                                            $sql="select * from pwebfp.user where (RollNo='$s' or Name like '%$s%') and RollNo<>'ADMIN'";
+                                        }
+                                    else
+                                        $sql="select * from pwebfp.user where RollNo<>'ADMIN'";
+
                                     $result=$conn->query($sql);
-                                    $row=$result->fetch_assoc();
+                                    $rowcount=mysqli_num_rows($result);
 
-                                    $name=$row['Name'];
-                                    // $category=$row['Category'];
-                                    $email=$row['Email'];
-                                    $mobno=$row['MobNo'];
-                                ?>
+                                    if(!($rowcount))
+                                        echo "<br><center><h2><b><i>No Results</i></b></h2></center>";
+                                    else
+                                    {
+                                    
+                                    ?>
+                                    <table class="table mt-5 table-bordered" id = "tables">
+                                    <thead class="thead-dark">
+                                    <tr>
+                                      <th>Name</th>
+                                      <th>Roll No.</th>
+                                      <th>Email </th>                                      
+                                      <th></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <?php
+                            
+                            //$result=$conn->query($sql);
+                            while($row=$result->fetch_assoc())
+                            {
 
-                                <h1 class="text-center"><?php echo $name ?></h1>
-                                <br>
-                                <h4 class="text-start">Email: <p><?php echo $email ?></p></h4>
-                                <br>
-                                <h4 class="text-start">Mobile Number: <p><?php echo $mobno ?></p></h4>
+                                $email=$row['Email'];
+                                $name=$row['Name'];
+                                $rollno=$row['RollNo'];
+                            ?>
+                                    <tr>
+                                      <td><?php echo $name ?></td>
+                                      <td class="font-weight-bold text-primary" ><?php echo $rollno ?></td>
+                                      <td><?php echo $email ?></td>                                      
+                                        <td>
+                                        <center>
+                                            <a href="studentdetails.php?id=<?php echo $rollno; ?>" class="btn btn-success">Details</a>
+                                            <!--a href="remove_student.php?id=<?php echo $rollno; ?>" class="btn btn-danger">Remove</a-->
+                                      </center>
+                                        </td>
+                                    </tr>
+                            <?php }} ?>
+                                  </tbody>
+                                </table>
                             </div>
-                        </div>
-                        <a href="edit_admin_details.php">
-                            <button type="button" class="btn btn-primary mt-5 ">Edit Profile</button>
-                        </a>
-                    </center>
+                    <!--/.span9-->
                 </div>
             </div>
-        </div>
-    </div>
-    
-    
-    
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         </div>
+            <!--/.container-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
 
+    </body>
 </html>
 
 <?php }
