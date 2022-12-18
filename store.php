@@ -19,21 +19,12 @@
                             <a href="buyticket.php">Ticket</a>
                         </li>
                         <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
-                            <a href="#">About</a>
+                            <a href="find.php">Find Ticket</a>
                         </li>
                         <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
                             <a href="store.php">Store</a></li>
                         </ul>
-                <div class="text-white text-center text-base pr-5  inline-flex">
-                    <a href="#" class="w-8 h-8 inline-block rounded-full pt-[6px] hover:text-blue-500">
-                        <i class="fa fa-twitter"></i>
-                    </a> 
-                    <a href="#" class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
-                        <i class="fa fa-instagram"></i>
-                    </a> 
-                    <a href="#"class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
-                        <i class="fa fa-facebook"></i>
-                    </a> 
+                <div class="text-white text-center text-base pr-5  inline-flex"> 
                     <a href="#" class="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500">
                         <i class="fa fa-google"></i>
                     </a> 

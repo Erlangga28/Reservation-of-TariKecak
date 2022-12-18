@@ -19,7 +19,7 @@
                             <a href="buyticket.php">Ticket</a>
                         </li>
                         <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
-                            <a href="#">About</a>
+                            <a href="find.php">Find ticket</a>
                         </li>
                         <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
                             <a href="store.php">Store</a></li>
