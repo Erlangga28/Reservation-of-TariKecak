@@ -39,3 +39,14 @@ function createBuyticket($conn,$name,$date,$notes, $email,$ticket){
     header("location: ../buyticket.php?error=none");
     exit();
 }
+
+function emptyInputLogin($id, $password){
+    $result;
+    if (empty($id) || empty($password)){
+        $result = true;
+    }
+    else{
+        $result = false;
+    }
+    return $result;
+}

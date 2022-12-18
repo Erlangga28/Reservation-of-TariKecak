@@ -1,6 +1,3 @@
-<?php
-require('connection.php');
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +17,7 @@ require('connection.php');
                 <div class="my-4">
                     <h1>Login</h1>
                 </div>
-                <form action="login.php" method="post">
+                <form action="data/login.inc.php" method="post">
                     <div class="form-group mb-4">
                         <label for="username">username</label>
                         <input name="id"type="text" class="form-control" id="username" placeholder="Username">
@@ -34,33 +31,6 @@ require('connection.php');
             </div>
          </div>
     </div>
-
-    <?php
-        if(isset($_POST['signin']))
-        {
-            $u=$_POST['id'];
-            $p=$_POST['Password'];
-
-            $sql="select * from fpmppl.admin where id='$u'";
-        
-            $result = $conn->query($sql);
-            $row = $result->fetch_assoc();
-            $x=$row['Password'];
-
-            if(strcasecmp($x,$p)==0 && !empty($u) && !empty($p))
-            {
-                echo "Login Successful";
-                 $_SESSION['id']=$u;
-        
-                if($y=='admin')
-                header('location:admin/index.php');       
-            }
-            else 
-            { 
-            echo "<script type='text/javascript'>alert('Failed to Login! Incorrect')</script>";
-            }
-    }
-    ?>
 
 </body>
 </html>

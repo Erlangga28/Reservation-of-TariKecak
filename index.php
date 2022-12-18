@@ -1,9 +1,5 @@
 <?php
-    require('dbconn.php');
-?>
-
-<?php 
-    if ($_SESSION['RollNo']) {
+    require_once('data/connection.php');
 ?>
 
 <!DOCTYPE html>
@@ -104,8 +100,6 @@
                             <div class="card-body">
 
                                 <?php
-                                    $rollno = $_SESSION['RollNo'];
-                                    $sql="select * from pwebfp.user where RollNo='$rollno'";
                                     $result=$conn->query($sql);
                                     $row=$result->fetch_assoc();
 
@@ -140,8 +134,3 @@
 </body>
 
 </html>
-
-<?php }
-else {
-    echo "<script type='text/javascript'>alert('Access Denied!!!')</script>";
-} ?>

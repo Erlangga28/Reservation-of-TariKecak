@@ -1,5 +1,5 @@
 <?php
-    require('dbconn.php');
+    require_once('connection.php');
 ?>
 
 <?php 
