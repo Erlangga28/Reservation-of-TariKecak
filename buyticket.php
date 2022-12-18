@@ -83,18 +83,15 @@
             </div>   
         </div>
 
-        <div class="flex"> 
-           <input type="checkbox" class="" name="" id=""> 
-           <p class="text-justify ml-4 text-white">Focus critical developer resources on your core business</p> 
-        </div> 
-        <div class="flex"> 
-          <input type="checkbox" class="" name="" id=""> 
-          <p class="text-justify ml-4 text-white">Launch new products faster with less payments code.</p> 
-        </div> 
-        <div class="flex"> 
-          <input type="checkbox" class="" name="" id=""> 
-          <p class="text-justify ml-4 text-white">Improve conversion from international customers.</p> 
-        </div> 
+        <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+      <label class=" text-white form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+      
+    </div>
+  </div>
       </div>
     </div> 
   </div> 

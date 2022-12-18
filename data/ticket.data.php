@@ -19,7 +19,6 @@ if(isset($_POST['submit']))
         exit();
      } 
 
-
     createBuyticket($conn,$name,$date,$notes,$email,$ticket);
 
 
