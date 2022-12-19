@@ -19,6 +19,6 @@ if(isset($_POST['custname']) && isset($_POST['Password']) )
    
 }
 else {
-    header("location: ../index.php");
+    header("location: ../adminhome.php");
     exit();
 }

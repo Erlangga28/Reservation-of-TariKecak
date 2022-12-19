@@ -10,7 +10,7 @@ if(isset($_POST['submit']))
     require_once 'connection.php';
     require_once 'function.data.php';
 
-    if ( emptyInputTicket($name,$date,$email,$ticket) !== false ){
+    if ( emptyInputTicket($name,$date,$notes,$email,$ticket) !== false ){
         header("location: ../buyticket.php?error=emptyInput");
         exit();
      }

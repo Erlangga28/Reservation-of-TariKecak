@@ -1,3 +1,7 @@
+<?php
+include('data/connection.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,53 +38,35 @@
 	</h2>
 
 	<!-- Form encrypted as text -->
-	<form id ="form-print" enctype="text/plain"
-		class="form-control">
+	<form action="find.php"method="post">
+			<div>
+                <label class="text-white dark:text-gray-200" for="name">Name</label>
+                <input name="name" type="text" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+            </div>
+		<div>
+		<label class="text-white dark:text-gray-200" for="email">Email Address</label>
+                <input name="email" type="email" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+            </div>
 
-		<label for="name">
-		<strong>Name: </strong>
-		</label>
-		<input class="form-control" type="text"
-		id="name" name="Name" placeholder="Enter Name">
-		<br>
+			<button type="submit" name= "submit" class="px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-pink-500 rounded-md hover:bg-pink-700 focus:outline-none focus:bg-gray-600">submit</button>
 
-		<label for="age">
-		<strong>Enter Age: </strong>
-		</label>
-		<input class="form-control" type="text"
-		id="age" name="Age" placeholder="Enter Age">
-		<br>
-
-		<label for="subject">
-		<strong>Select Subject: </strong>
-		</label>
-		<select class="form-control"
-			id="subject" name="subject">
-			<option value="Web">
-				Web development
-			</option>
-			<option value="App">
-				App development
-			</option>
-			<option value="Others">
-				Others
-			</option>
-		</select>
-		<br>
-		
-		<label for="message">
-		<strong>Enter Message </strong>
-		</label>
-		<textarea class= "form-control"
-		id="message" name="message"
-		placeholder="Enter you message"
-		style="height:100px">
-		</textarea>
-		<br>
-
-		<input type="button" class="btn btn-primary"
-		onclick="GeneratePdf();" value="GeneratePdf">
 	</form>
+		<?php
+			$sql = "SELECT custname, custemail, ticketselect FROM buyticket";
+			$result = $conn->query($sql);
+			
+			if ($result->num_rows > 0) {
+			  // output data of each row
+			  while($row = $result->fetch_assoc()) {
+				echo "name: " . $row["custname"]. " - email: " . $row["custemail"]. " ticket:" . $row["ticketselect"]. "<br>";
+			  }
+			} else {
+			  echo "0 results";
+			}
+			$conn->close();
+			?>
+
+	
 				
 	<script>		
 		// Function to GeneratePdf

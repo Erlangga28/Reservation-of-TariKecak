@@ -102,8 +102,6 @@
                         <h1 class="text-center pt-4">Student Details</h1>
 
                         <?php
-                            $rno=$_GET['id'];
-                            $sql="select * from pwebfp.user where RollNo='$rno'";
                             $result=$conn->query($sql);
                             $row=$result->fetch_assoc();    
                             

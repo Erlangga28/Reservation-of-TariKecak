@@ -1,8 +1,9 @@
 <?php
+include('connection.php');
 
-function emptyInputTicket($name ,$date, $email, $ticket){
+function emptyInputTicket($name ,$date, $notes, $email, $ticket){
     $result;
-    if (empty($name) ||empty($date) || empty($email) || empty($ticket) ){
+    if (empty($name) ||empty($date) ||  empty($notes) ||  empty($email) || empty($ticket) ){
         $result = true;
     }
     else{
@@ -33,7 +34,7 @@ function createBuyticket($conn,$name,$date,$notes, $email,$ticket){
     }
 
     
-    mysqli_stmt_bind_param($stmt,"sssss",$name, $email, $date, $notes, $ticket );
+    mysqli_stmt_bind_param($stmt,"sssss",$name, $date, $notes, $email, $ticket );
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
     header("location: ../buyticket.php?error=none");
@@ -51,11 +52,3 @@ function emptyInputLogin($id, $password){
     return $result;
 }
 
-function getOrders(){
-
-    global $conn;
-    $email = $_SESSION['email'];
-
-    $query = "SELECT * FROM ticket WHERE custemail = '$email' ";
-    return $query_run = mysqli_query($conn, $query);
-}
