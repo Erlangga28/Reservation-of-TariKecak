@@ -120,6 +120,11 @@
     </div>
   </div>
 </section>
+<div class="relative h-32 w-32 ...">
+  <div class="absolute inset-y-0 right-0 w-16 ">
+    <a class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" href="Payment-shop.php">Continue</a>
+  </div>
+</div>
 
 <footer class="text-gray-600 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
