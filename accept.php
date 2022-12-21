@@ -11,15 +11,15 @@ $row=$result->fetch_assoc();
 $name=$row['custname'];
 
 if($name == 'custname')
-{$sql1="update record set Date_of_Issue=curdate(),Due_Date=date_add(curdate(),interval 60 day),Renewals_left=1 where custemail='$email' and custname='$name'";
+{$sql1="UPDATE record set Date_of_Issue=curdate(),Due_Date=date_add(curdate(),interval 60 day),Renewals_left=1 where custemail='$email' and custname='$name'";
  
 if($conn->query($sql1) === TRUE)
 {$sql3="UPDATE buyticket set Ticket=Ticket-1 where custemail='$email'";
  $result=$conn->query($sql3);
-//  $sql5="insert into pwebfp.message (RollNo,Msg,Date,Time) values ('$name','Your request for issue of BookId: $email  has been accepted',curdate(),curtime())";
+//  $sql5="INSERT into message (RollNo,Msg,Date,Time) values ('$name','Your request for issue of BookId: $email  has been accepted',curdate(),curtime())";
 //  $result=$conn->query($sql5);
 echo "<script type='text/javascript'>alert('Success')</script>";
-header( "Refresh:0.01; url=adminhome.php", true, 303);
+header( "Refresh:0.01; url=book.php", true, 303);
 }
 else
 {

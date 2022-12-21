@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
         <a class="navbar-brand" href="#">
             <img src="images/LMS.png" width="30" height="30" class="d-inline-block align-top" alt="">
-            Library System
+            Admin Reservation of Tari Kecak
         </a>
         <ul class="navbar-nav ml-auto mr-5">
             <li class="nav-item">
@@ -29,14 +29,6 @@
                         <img src="images/user.png" width="30" height="30" class="nav-avatar" />
                         <b class="caret"></b>
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a href="index.php">
-                            <button class="dropdown-item" type="button">Your Profile</button>
-                        </a>
-                        <a href="logout.php">
-                            <button class="dropdown-item" type="button">Logout</button>
-                        </a>
-                    </div>
                 </div>
             </li>
         </ul>    
@@ -50,15 +42,11 @@
                     
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 mt-5 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item ">
-                            <a href="#" class="nav-link align-middle px-0">
+                            <a href="adminhome.php" class="nav-link align-middle px-0">
                                 <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="message.php" class="nav-link align-middle px-0">
-                                <i class="fs-4 bi-chat-dots-fill"></i> <span class="ms-2 d-none d-sm-inline">Messages</span>
-                            </a>
-                        </li>
+                    
                         <li>
                             <a href="manage.php" class="nav-link px-0 align-middle">
                                 <i class="fs-4 bi-person-workspace"></i> <span class="ms-1 d-none d-sm-inline">Order Details</span></a>
@@ -67,25 +55,10 @@
                             <a href="book.php" class="nav-link px-0 align-middle">
                                 <i class="fs-4 bi-book-half"></i> <span class="ms-1 d-none d-sm-inline">All Books</span></a>
                         </li>
+                       
                         <li>
-                            <a href="addbook.php" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-bookshelf"></i> <span class="ms-1 d-none d-sm-inline">Add Books</span></a>
-                        </li>
-                        <li>
-                            <a href="requests.php" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-archive-fill"></i> <span class="ms-1 d-none d-sm-inline">Issue/Return Requests </span> </a>
-                        </li>
-                        <li>
-                            <a href="recommendations.php" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Book Recommendations </span> </a>
-                        </li>
-                        <li>
-                            <a href="current.php" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline"> Currently Issued Books </span> </a>
-                        </li>
-                        <li>
-                            <a href="logout.php">
-                                <button type="button" class="btn btn-danger mt-3" style="width: 150px;"> <a href="logout.php">Logout</a></button>
+                            <a href="home.php">
+                                <button type="button" class="btn btn-danger mt-3" style="width: 150px;"> <a href="home.php">Logout</a></button>
                             </a>
                         </li>
                     </ul>                   
