@@ -23,7 +23,7 @@
 
                 <div class="d-flex align-items-center mb-5">
                   <div class="flex-shrink-0">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/13.webp"
+                    <img src="img/selendang1.jpg"
                       class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
                   </div>
                   <div class="flex-grow-1 ms-3">
@@ -46,7 +46,7 @@
 
                 <div class="d-flex align-items-center mb-5">
                   <div class="flex-shrink-0">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/6.webp"
+                    <img src="img/udeng1.jpeg"
                       class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
                   </div>
                   <div class="flex-grow-1 ms-3">
@@ -69,7 +69,7 @@
 
                 <div class="d-flex align-items-center mb-5">
                   <div class="flex-shrink-0">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/1.webp"
+                    <img src="img/Kemben1.jpg"
                       class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
                   </div>
                   <div class="flex-grow-1 ms-3">
@@ -137,13 +137,10 @@
                     </div>
                   </div>
 
-                  <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit <a
-                      href="#!">obcaecati sapiente</a>.</p>
-
                   <button type="button" class="btn btn-primary btn-block btn-lg">Buy now</button>
 
                   <h5 class="fw-bold mb-5" style="position: absolute; bottom: 0;">
-                    <a href="#!"><i class="fas fa-angle-left me-2"></i>Back to shopping</a>
+                    <a href="store.php"><i class="fas fa-angle-left me-2"></i>Back to shopping</a>
                   </h5>
 
                 </form>

@@ -84,7 +84,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <hr style="border:1px dashed #dddddd;">
-                    <button type="button" class="btn btn-primary btn-block">Submit all and finish</button>
+                    <a type="button" class="btn btn-primary btn-block" href="home.php">Submit all and finish</a>
                 </div>                
             </div>
         </div>
